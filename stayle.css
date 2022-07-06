@@ -22,11 +22,18 @@ h1{
     font-family: 'Roboto Mono', monospace; 
     font-weight: 400;
     font-size: 18px;
-    opacity: 0.8;
+    opacity: 0.9;
     color: #020720;
 }
+
+.tec{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 20px;
+    color: #020720;
+    margin-top: 12px;
+}
 .container{
-    
     text-align: center;
     width: 300px;
     margin: 60px auto; 
@@ -46,14 +53,14 @@ ul{
     margin: 48px 0;
 }
 
-ul li a {
+ul li a { 
     gap: 20px;
     height: 53px;
     display: flex;
     justify-content: center;
     align-items: center; 
     background: 
-    #3855c9;
+    #3754c7;
     color: white;
     text-transform: uppercase;
     font-size: 14px; 
@@ -62,11 +69,13 @@ ul li a {
 transition:background 400ms;
 }
 ul li a:hover{
-    background: #364FC7;
+    background: #1e254d;
+   cursor: pointer; 
+   filter:drop-shadow(30px 10px 4px #4444dd);
 }
 footer{
     font-weight: 500; 
-    font-size: 14px;
+    font-size: 15px;
     color: #00082F;
     opacity: 0.6; 
     transition: opacity 400ms;
@@ -75,6 +84,6 @@ footer a{
     color: #00082F;;
 } 
 footer:hover{
-    opacity: 1;
+    opacity: 1; 
     
 }
